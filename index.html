@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vols de Clients</title>
+</head>
+<body>
+
+    <form id="edificioActionsForm">
+        <p>Elige opción:</p>
+        
+        <input type="radio" id="darDeAlta" name="accionElegida" value="darDeAlta">
+        <label for="darDeAlta">Dar de Alta</label><br>
+        
+        <input type="radio" id="eliminarEdificio" name="accionElegida" value="eliminarEdificio">
+        <label for="eliminarEdificio">Eliminar Edificio</label><br>
+        
+        <input type="radio" id="mostrarEdificio" name="accionElegida" value="mostrarEdificio">
+        <label for="mostrarEdificio">Mostrar Edificio</label><br>
+        <br>
+        <button type="button" onclick="escoger()">Escoger</button>
+    
+        <p id="mensaje"></p>
+    
+    </form>
+
+    <script src="clasesEdificis.js"></script>
+    <script src="claseHotel.js"></script>
+    <script src="claseHospital.js"></script>
+    <script src="claseCinema.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
